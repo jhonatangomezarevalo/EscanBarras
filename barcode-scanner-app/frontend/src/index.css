@@ -1,0 +1,67 @@
+.index {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* App.css */
+
+/* Estilos globales para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Estilos globales para los enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilos globales para los títulos */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+/* Estilos globales para los contenedores principales */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos globales para los botones */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos globales para los botones primarios */
+.primary-button {
+  background-color: #28a745;
+}
+
+.primary-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,33 @@
+.product-list {
+  text-align: left;
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.product-list button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-list button:hover {
+  background-color: #ff1a1a;
+}

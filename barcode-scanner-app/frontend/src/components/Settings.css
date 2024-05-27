@@ -1,0 +1,30 @@
+.settings {
+  margin-top: 20px;
+}
+
+.settings h2 {
+  margin-bottom: 10px;
+}
+
+.settings label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.settings button {
+  background-color: #9c27b0;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.settings button:hover {
+  background-color: #7b1fa2;
+}
